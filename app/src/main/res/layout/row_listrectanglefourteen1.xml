@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameStackrectanglefourteen"
+        android:layout_height="wrap_content" android:layout_width="@dimen/_223pxh">
+        <View
+            android:background="@drawable/rectangle_bg_gray_904_radius_15"
+            android:id="@+id/viewRectangleFourteen"
+            android:layout_gravity="bottom|center"
+            android:layout_height="@dimen/_146pxv"
+            android:layout_marginStart="@dimen/_1pxh"
+            android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_222pxh"/>
+        <LinearLayout android:id="@+id/linearColumnrectanglenine"
+            android:layout_gravity="top|start"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <ImageView android:id="@+id/imageRectangleNine"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_155pxh"
+                android:layout_width="@dimen/_223pxh"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_15pxh}"
+                imageRes="@{@drawable/img_rectangle9}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle9"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowloremhouse"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8pxh"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnloremhouse"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_weight="0.84"
+                    android:layout_width="0dp" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtLoremHouse"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@string/lbl_lorem_house"
+                        style="@style/txtPoppinssemibold15_2" tools:text="@string/lbl_lorem_house"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtPrice"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@string/lbl_340_month"
+                        style="@style/txtPoppinsregular11_5" tools:text="@string/lbl_340_month"/>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowlinkedin"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ImageView android:id="@+id/imageLinkedin"
+                            android:layout_height="@dimen/_13pxh"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_width="@dimen/_10pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_linkedin"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_linkedin"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtTimeZone"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4pxh"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@string/msg_avenue_west_si"
+                            style="@style/txtPoppinsregular11_1" tools:text="@string/msg_avenue_west_si"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_gray_903_radius_12"
+                    android:id="@+id/btnBookmark"
+                    android:layout_height="@dimen/_33pxh"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="@dimen/_32pxh"
+                    android:paddingHorizontal="@dimen/_9pxh"
+                    android:paddingVertical="@dimen/_9pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_bookmark_blue_a401" tools:ignore="ContentDescription"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

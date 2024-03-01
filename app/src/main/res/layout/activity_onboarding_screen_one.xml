@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear01OnboardingS"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <ImageView android:gravity="start"
+            android:id="@+id/imageApartmentrent"
+            android:layout_height="@dimen/_250pxv"
+            android:layout_marginTop="@dimen/_59pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_apartmentrent}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_apartmentrent"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtLanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_55pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_8pxh"
+            android:text="@string/msg_lorem_ipsum_is"
+            style="@style/txtPoppinssemibold25" tools:text="@string/msg_lorem_ipsum_is"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtLoremIpsumis"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_2pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:text="@string/msg_lorem_ipsum_is2"
+            style="@style/txtPoppinsregular15" tools:text="@string/msg_lorem_ipsum_is2"/>
+        <LinearLayout android:id="@+id/linearRowframe117127547"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_167pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <View android:background="@drawable/rectangle_radius_20"
+                android:id="@+id/viewFrame117127547"
+                android:layout_height="@dimen/_40pxh" android:layout_width="@dimen/_40pxh"/>
+
+            <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                android:id="@+id/indicatorClose"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12pxv"
+                android:layout_marginStart="@dimen/_99pxh"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_weight="0.42" android:layout_width="0dp"
+                app:drawable_normal="@drawable/indicator_unselected_bg_blue_100_radius_8"
+                app:drawable_selected="@drawable/indicator_selected_bg_blue_a700_radius_8"
+                app:indicator_size="@dimen/_11pxh" app:indicator_spacing="@dimen/_10pxh"/>
+            <ImageButton
+                android:background="@drawable/rectangle_bg_blue_a700_radius_20"
+                android:id="@+id/btnArrowright"
+                android:layout_height="@dimen/_40pxh"
+                android:layout_marginStart="@dimen/_99pxh"
+                android:layout_width="@dimen/_40pxh"
+                android:paddingHorizontal="@dimen/_12pxh"
+                android:paddingVertical="@dimen/_12pxv"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_arrowright" tools:ignore="ContentDescription"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@+id/txtSkip"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_18pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_41pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true" android:text="@string/lbl_skip"
+            style="@style/txtPoppinsregular13" tools:text="@string/lbl_skip"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear00Splash"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameStackunsplashhhz4yr"
+            android:layout_height="@dimen/_577pxv" android:layout_width="match_parent">
+            <ImageView android:id="@+id/imageUnsplashhHz4yr"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_142pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="@dimen/_293pxh"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_30pxh}"
+                imageRes="@{@drawable/img_unsplashhhz4yr}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_unsplashhhz4yr"/>
+            <ImageView android:id="@+id/imageUnsplashxaqsFf"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_353pxh"
+                android:layout_marginBottom="@dimen/_78pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_78pxv"
+                android:layout_width="@dimen/_215pxh"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_30pxh}"
+                imageRes="@{@drawable/img_unsplashxaqsff}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_unsplashxaqsff"/>
+            <ImageView android:id="@+id/imageUnsplashZhiMNine"
+                android:layout_gravity="top|end"
+                android:layout_height="@dimen/_287pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="@dimen/_163pxh"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_30pxh}"
+                imageRes="@{@drawable/img_unsplashzhim9}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_unsplashzhim9"/>
+            <ImageView android:id="@+id/imageUnsplashSqbAux"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_353pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_241pxh"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_30pxh}"
+                imageRes="@{@drawable/img_unsplashsqbaux}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_unsplashsqbaux"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/imageLayerOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_71pxh"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="@dimen/_287pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_layer1"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_layer1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnGetStarted"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_32pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_12pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_12pxv" android:singleLine="true"
+            android:text="@string/lbl_get_started"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/lbl_get_started"/>
+    </LinearLayout>
+</layout>
